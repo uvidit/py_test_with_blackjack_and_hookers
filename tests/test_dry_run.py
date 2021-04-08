@@ -5,6 +5,10 @@ class TestClass:
         """this test succeeds"""
         assert True
 
+    def test_success_one_more(self):
+        """this test succeeds....there should be more 'green' test %) """
+        assert True
+
 
     def test_failure(self):
         """this test fails"""
