@@ -1,0 +1,11 @@
+/.idea/
+
+/allure-report/
+/allure_results/
+
+#/bin/
+#/include/
+#/lib/
+#/lib/python3.9/
+#/lib/python3.9/site-packages/
+

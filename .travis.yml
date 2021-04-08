@@ -1,0 +1,33 @@
+env:
+  global:
+    - allure_results_dir=./allure_results
+    - allure_report_dir=./allure_report
+language: python
+python:
+  - "3.9"
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+
+# command to run tests
+script:
+  - chmod +x run_test.sh
+  - ./run_test.sh || echo "done"
+
+#  - export allure_results_dir=./allure_results
+#  - export allure_report_dir=./allure_report
+#  - rm -rf $allure_results_dir
+#  - rm -rf allure_report_dir
+#  - pytest --alluredir=$allure_results_dir
+
+#  - allure generate --clean --report-dir=$allure_report_dir $allure_results_dir
+#before_deploy:
+#  - allure generate --clean --report-dir=$allure_report_dir $allure_results_dir
+deploy:
+  local_dir: $allure_report_dir
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: master
