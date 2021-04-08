@@ -14,17 +14,13 @@ script:
   - chmod +x run_test.sh
   - ./run_test.sh || echo "done"
 
-#  - export allure_results_dir=./allure_results
-#  - export allure_report_dir=./allure_report
-#  - rm -rf $allure_results_dir
-#  - rm -rf allure_report_dir
-#  - pytest --alluredir=$allure_results_dir
-
-#  - allure generate --clean --report-dir=$allure_report_dir $allure_results_dir
-#before_deploy:
-#  - allure generate --clean --report-dir=$allure_report_dir $allure_results_dir
+before_deploy:
+  - sleep 5
+  - ls
+  - echo "done"
 deploy:
-  local_dir: $allure_report_dir
+#  local_dir: $allure_report_dir
+  local_dir: ./allure_report
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN

@@ -1,6 +1,6 @@
 /.idea/
 
-/allure-report/
+#/allure-report/
 /allure_results/
 
 #/bin/
