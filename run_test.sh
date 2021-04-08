@@ -1,3 +1,5 @@
+pip install -r requirements.txt
+
 export allure_results_dir=./allure_results
 export allure_report_dir=./allure_report
 
