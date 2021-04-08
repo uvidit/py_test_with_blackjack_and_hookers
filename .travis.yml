@@ -17,3 +17,13 @@ script:
   - rm -rf allure_report_dir
   - pytest --alluredir=$allure_results_dir
   - allure generate --clean --report-dir=$allure_report_dir $allure_results_dir
+before_deploy:
+  - cp build/reports/cucumber/cucumber-html-reports/overview-features.html build/reports/cucumber/cucumber-html-reports/index.html
+deploy:
+  local_dir: $allure_report_dir
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: master
