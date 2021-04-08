@@ -1,0 +1,15 @@
+language: python
+python:
+  - "3.9"
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+  - pip install allure-pytest
+# command to run tests
+script:
+  - export allure_results_dir=./allure_results
+  - export allure_report_dir=./allure_report
+  - rm -rf $allure_results_dir
+  - rm -rf allure_report_dir
+  - pytest --alluredir=$allure_results_dir
+  - allure generate --clean --report-dir=$allure_report_dir $allure_results_dir
