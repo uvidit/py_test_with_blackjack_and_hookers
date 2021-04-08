@@ -1,7 +1,7 @@
 pip install -r requirements.txt
 
 export allure_results_dir=./allure_results
-export allure_report_dir=./allure_report
+export allure_report_dir=./allure-report
 export allure_version=2.13.9
 
 rm -rf $allure_results_dir
