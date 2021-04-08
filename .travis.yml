@@ -20,7 +20,7 @@ before_deploy:
   - echo "done"
 deploy:
 #  local_dir: $allure_report_dir
-  local_dir: ./allure_report
+  local_dir: $allure_report_dir
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
