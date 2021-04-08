@@ -1,0 +1,64 @@
+{
+  "uid" : "7e69e197ae7b7b73",
+  "name" : "test_failure",
+  "fullName" : "tests.test_dry_run.TestClass#test_failure",
+  "historyId" : "e2362e3e80af77e3bb14bab78ede84b8",
+  "time" : {
+    "start" : 1617925550522,
+    "stop" : 1617925550522,
+    "duration" : 0
+  },
+  "description" : "this test fails",
+  "descriptionHtml" : "<p>this test fails</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <test_dry_run.TestClass object at 0x7f74d265fa30>\n\n    def test_failure(self):\n        \"\"\"this test fails\"\"\"\n>       assert False\nE       assert False\n\ntests/test_dry_run.py:11: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_dry_run"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-a1b526d9-1637-4c1d-ac3b-6dbd17a1af5a"
+  }, {
+    "name" : "thread",
+    "value" : "3665-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_dry_run"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7e69e197ae7b7b73.json",
+  "parameterValues" : [ ]
+}

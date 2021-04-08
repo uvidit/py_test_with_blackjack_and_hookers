@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_dry_run",
+      "children" : [ {
+        "name" : "TestClass",
+        "children" : [ {
+          "name" : "test_success",
+          "uid" : "ece5ad5936b42bed",
+          "parentUid" : "eea9256862baf0b7ff6d1386c98ae9b0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1617925550518,
+            "stop" : 1617925550519,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_failure",
+          "uid" : "7e69e197ae7b7b73",
+          "parentUid" : "eea9256862baf0b7ff6d1386c98ae9b0",
+          "status" : "failed",
+          "time" : {
+            "start" : 1617925550522,
+            "stop" : 1617925550522,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_skip",
+          "uid" : "c8effa787d3f0981",
+          "parentUid" : "eea9256862baf0b7ff6d1386c98ae9b0",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1617925550545,
+            "stop" : 1617925550546,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_broken",
+          "uid" : "d4d5c9761486f9eb",
+          "parentUid" : "eea9256862baf0b7ff6d1386c98ae9b0",
+          "status" : "broken",
+          "time" : {
+            "start" : 1617925550547,
+            "stop" : 1617925550547,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "eea9256862baf0b7ff6d1386c98ae9b0"
+      } ],
+      "uid" : "d41ea075ddef950d53956e476118dda7"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ],
+  "name" : "suites"
+}

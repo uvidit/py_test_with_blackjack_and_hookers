@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Apr 08 23:45:50 UTC 2021","Thu Apr 08 23:45:50 UTC 2021","0","tests","test_dry_run","TestClass","","","test_failure","this test fails"
+"passed","Thu Apr 08 23:45:50 UTC 2021","Thu Apr 08 23:45:50 UTC 2021","1","tests","test_dry_run","TestClass","","","test_success","this test succeeds"
+"skipped","Thu Apr 08 23:45:50 UTC 2021","Thu Apr 08 23:45:50 UTC 2021","1","tests","test_dry_run","TestClass","","","test_skip","this test is skipped"
+"broken","Thu Apr 08 23:45:50 UTC 2021","Thu Apr 08 23:45:50 UTC 2021","0","tests","test_dry_run","TestClass","","","test_broken",""
