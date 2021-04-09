@@ -1,61 +1,61 @@
 [ {
-  "uid" : "b5c961c115581f02",
-  "name" : "test_broken",
+  "uid" : "31ef7cf75dfcbe8e",
+  "name" : "test_success",
   "time" : {
-    "start" : 1617980633101,
-    "stop" : 1617980633101,
-    "duration" : 0
+    "start" : 1617984215372,
+    "stop" : 1617984215373,
+    "duration" : 1
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4ec206b320942830",
+  "uid" : "315b631f91d38ae3",
+  "name" : "test_success_one_more",
+  "time" : {
+    "start" : 1617984215576,
+    "stop" : 1617984215577,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a7bdc90f362dc8",
   "name" : "test_failure",
   "time" : {
-    "start" : 1617980633065,
-    "stop" : 1617980633065,
+    "start" : 1617984215578,
+    "stop" : 1617984215578,
     "duration" : 0
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "af16683cfd1ba719",
-  "name" : "test_success",
-  "time" : {
-    "start" : 1617980632987,
-    "stop" : 1617980632987,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "674e05219a3fe42d",
+  "uid" : "1a197896487ec132",
   "name" : "test_skip",
   "time" : {
-    "start" : 1617980633099,
-    "stop" : 1617980633099,
-    "duration" : 0
+    "start" : 1617984215607,
+    "stop" : 1617984215608,
+    "duration" : 1
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "7dd75af5ee79791d",
-  "name" : "test_success_one_more",
+  "uid" : "9ee6f55efffaa9cf",
+  "name" : "test_url_success",
   "time" : {
-    "start" : 1617980633063,
-    "stop" : 1617980633063,
-    "duration" : 0
+    "start" : 1617984215376,
+    "stop" : 1617984215574,
+    "duration" : 198
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6d7fbd3d4e89373c",
-  "name" : "test_url_success",
+  "uid" : "665df1a94f167c77",
+  "name" : "test_broken",
   "time" : {
-    "start" : 1617980632989,
-    "stop" : 1617980633061,
-    "duration" : 72
+    "start" : 1617984215609,
+    "stop" : 1617984215609,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 } ]

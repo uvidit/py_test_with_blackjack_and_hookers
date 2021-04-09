@@ -1,12 +1,12 @@
 {
-  "uid" : "674e05219a3fe42d",
+  "uid" : "1a197896487ec132",
   "name" : "test_skip",
   "fullName" : "tests.test_dry_run.TestClass#test_skip",
   "historyId" : "241b64be558d01e2126458b3b4c506e5",
   "time" : {
-    "start" : 1617980633099,
-    "stop" : 1617980633099,
-    "duration" : 0
+    "start" : 1617984215607,
+    "stop" : 1617984215608,
+    "duration" : 1
   },
   "description" : "this test is skipped",
   "descriptionHtml" : "<p>this test is skipped</p>\n",
@@ -28,10 +28,10 @@
     "value" : "TestClass"
   }, {
     "name" : "host",
-    "value" : "travis-job-72544a18-b24c-44b1-afb4-5721dfc545db"
+    "value" : "travis-job-4da81ec5-249f-47d8-9752-d0ebbfc6e8a8"
   }, {
     "name" : "thread",
-    "value" : "3636-MainThread"
+    "value" : "3678-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -55,6 +55,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "674e05219a3fe42d.json",
+  "source" : "1a197896487ec132.json",
   "parameterValues" : [ ]
 }

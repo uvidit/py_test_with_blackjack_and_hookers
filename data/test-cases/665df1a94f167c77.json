@@ -1,18 +1,16 @@
 {
-  "uid" : "4ec206b320942830",
-  "name" : "test_failure",
-  "fullName" : "tests.test_dry_run.TestClass#test_failure",
-  "historyId" : "e2362e3e80af77e3bb14bab78ede84b8",
+  "uid" : "665df1a94f167c77",
+  "name" : "test_broken",
+  "fullName" : "tests.test_dry_run.TestClass#test_broken",
+  "historyId" : "c4e86f8ca96069e97b9f0b1f90f0f6a8",
   "time" : {
-    "start" : 1617980633065,
-    "stop" : 1617980633065,
+    "start" : 1617984215609,
+    "stop" : 1617984215609,
     "duration" : 0
   },
-  "description" : "this test fails",
-  "descriptionHtml" : "<p>this test fails</p>\n",
-  "status" : "failed",
-  "statusMessage" : "AssertionError: assert False",
-  "statusTrace" : "self = <test_dry_run.TestClass object at 0x7f6e9361f940>\n\n    def test_failure(self):\n        \"\"\"this test fails\"\"\"\n>       assert False\nE       assert False\n\ntests/test_dry_run.py:23: AssertionError",
+  "status" : "broken",
+  "statusMessage" : "Exception: oops",
+  "statusTrace" : "self = <test_dry_run.TestClass object at 0x7f90c3d4a4f0>\n\n    def test_broken(self):\n>       raise Exception('oops')\nE       Exception: oops\n\ntests/test_dry_run.py:32: Exception",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
@@ -28,10 +26,10 @@
     "value" : "TestClass"
   }, {
     "name" : "host",
-    "value" : "travis-job-72544a18-b24c-44b1-afb4-5721dfc545db"
+    "value" : "travis-job-4da81ec5-249f-47d8-9752-d0ebbfc6e8a8"
   }, {
     "name" : "thread",
-    "value" : "3636-MainThread"
+    "value" : "3678-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -53,12 +51,12 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ {
-      "name" : "Product defects",
+      "name" : "Test defects",
       "matchedStatuses" : [ ],
       "flaky" : false
     } ],
     "tags" : [ ]
   },
-  "source" : "4ec206b320942830.json",
+  "source" : "665df1a94f167c77.json",
   "parameterValues" : [ ]
 }
