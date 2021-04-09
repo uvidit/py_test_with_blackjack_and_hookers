@@ -1,0 +1,58 @@
+{
+  "uid" : "57ac2f2d2ca0c762",
+  "name" : "test_success_one_more",
+  "fullName" : "tests.test_dry_run.TestClass#test_success_one_more",
+  "historyId" : "ab3ae6e16cd8a95210cb1d62ef9fef09",
+  "time" : {
+    "start" : 1617926391191,
+    "stop" : 1617926391192,
+    "duration" : 1
+  },
+  "description" : "this test succeeds....there should be more 'green' test %) ",
+  "descriptionHtml" : "<p>this test succeeds....there should be more 'green' test %)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_dry_run"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-78354f00-4525-4baa-98d8-465006bb67d1"
+  }, {
+    "name" : "thread",
+    "value" : "3575-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_dry_run"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "57ac2f2d2ca0c762.json",
+  "parameterValues" : [ ]
+}

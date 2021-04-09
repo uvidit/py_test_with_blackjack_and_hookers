@@ -1,0 +1,60 @@
+{
+  "uid" : "814316323537b4a",
+  "name" : "test_skip",
+  "fullName" : "tests.test_dry_run.TestClass#test_skip",
+  "historyId" : "241b64be558d01e2126458b3b4c506e5",
+  "time" : {
+    "start" : 1617926391217,
+    "stop" : 1617926391218,
+    "duration" : 1
+  },
+  "description" : "this test is skipped",
+  "descriptionHtml" : "<p>this test is skipped</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: for a reason!",
+  "statusTrace" : "('/home/travis/build/uvidit/py_test_with_blackjack_and_hookers/tests/test_dry_run.py', 20, 'Skipped: for a reason!')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_dry_run"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-78354f00-4525-4baa-98d8-465006bb67d1"
+  }, {
+    "name" : "thread",
+    "value" : "3575-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_dry_run"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "814316323537b4a.json",
+  "parameterValues" : [ ]
+}
