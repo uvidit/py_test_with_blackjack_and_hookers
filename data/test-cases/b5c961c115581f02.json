@@ -1,16 +1,16 @@
 {
-  "uid" : "e27c683ee8948e11",
-  "name" : "test_success_one_more",
-  "fullName" : "tests.test_dry_run.TestClass#test_success_one_more",
-  "historyId" : "ab3ae6e16cd8a95210cb1d62ef9fef09",
+  "uid" : "b5c961c115581f02",
+  "name" : "test_broken",
+  "fullName" : "tests.test_dry_run.TestClass#test_broken",
+  "historyId" : "c4e86f8ca96069e97b9f0b1f90f0f6a8",
   "time" : {
-    "start" : 1617978534812,
-    "stop" : 1617978534812,
+    "start" : 1617980633101,
+    "stop" : 1617980633101,
     "duration" : 0
   },
-  "description" : "this test succeeds....there should be more 'green' test %) ",
-  "descriptionHtml" : "<p>this test succeeds....there should be more 'green' test %)</p>\n",
-  "status" : "passed",
+  "status" : "broken",
+  "statusMessage" : "Exception: oops",
+  "statusTrace" : "self = <test_dry_run.TestClass object at 0x7f6e935c6cd0>\n\n    def test_broken(self):\n>       raise Exception('oops')\nE       Exception: oops\n\ntests/test_dry_run.py:32: Exception",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
@@ -26,10 +26,10 @@
     "value" : "TestClass"
   }, {
     "name" : "host",
-    "value" : "travis-job-36736ccf-3c10-49c1-a9a7-4866888d0f5e"
+    "value" : "travis-job-72544a18-b24c-44b1-afb4-5721dfc545db"
   }, {
     "name" : "thread",
-    "value" : "3660-MainThread"
+    "value" : "3636-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -50,9 +50,13 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
     "tags" : [ ]
   },
-  "source" : "e27c683ee8948e11.json",
+  "source" : "b5c961c115581f02.json",
   "parameterValues" : [ ]
 }

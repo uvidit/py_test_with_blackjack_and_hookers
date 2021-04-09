@@ -1,16 +1,18 @@
 {
-  "uid" : "8099d0d8363f9835",
-  "name" : "test_broken",
-  "fullName" : "tests.test_dry_run.TestClass#test_broken",
-  "historyId" : "c4e86f8ca96069e97b9f0b1f90f0f6a8",
+  "uid" : "674e05219a3fe42d",
+  "name" : "test_skip",
+  "fullName" : "tests.test_dry_run.TestClass#test_skip",
+  "historyId" : "241b64be558d01e2126458b3b4c506e5",
   "time" : {
-    "start" : 1617978534834,
-    "stop" : 1617978534834,
+    "start" : 1617980633099,
+    "stop" : 1617980633099,
     "duration" : 0
   },
-  "status" : "broken",
-  "statusMessage" : "Exception: oops",
-  "statusTrace" : "self = <test_dry_run.TestClass object at 0x7f25395beca0>\n\n    def test_broken(self):\n>       raise Exception('oops')\nE       Exception: oops\n\ntests/test_dry_run.py:24: Exception",
+  "description" : "this test is skipped",
+  "descriptionHtml" : "<p>this test is skipped</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: for a reason!",
+  "statusTrace" : "('/home/travis/build/uvidit/py_test_with_blackjack_and_hookers/tests/test_dry_run.py', 28, 'Skipped: for a reason!')",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
@@ -26,10 +28,10 @@
     "value" : "TestClass"
   }, {
     "name" : "host",
-    "value" : "travis-job-36736ccf-3c10-49c1-a9a7-4866888d0f5e"
+    "value" : "travis-job-72544a18-b24c-44b1-afb4-5721dfc545db"
   }, {
     "name" : "thread",
-    "value" : "3660-MainThread"
+    "value" : "3636-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -50,13 +52,9 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ {
-      "name" : "Test defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8099d0d8363f9835.json",
+  "source" : "674e05219a3fe42d.json",
   "parameterValues" : [ ]
 }

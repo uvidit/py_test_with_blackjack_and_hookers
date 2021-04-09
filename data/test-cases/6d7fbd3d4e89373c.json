@@ -1,15 +1,15 @@
 {
-  "uid" : "ab2b3fbe84406ac7",
-  "name" : "test_success",
-  "fullName" : "tests.test_dry_run.TestClass#test_success",
-  "historyId" : "96e4668cbc9e15af0dcf570bad1e5a5b",
+  "uid" : "6d7fbd3d4e89373c",
+  "name" : "test_url_success",
+  "fullName" : "tests.test_dry_run.TestClass#test_url_success",
+  "historyId" : "55e8c78849a20ffb4b24be5271418498",
   "time" : {
-    "start" : 1617978534811,
-    "stop" : 1617978534811,
-    "duration" : 0
+    "start" : 1617980632989,
+    "stop" : 1617980633061,
+    "duration" : 72
   },
-  "description" : "this test succeeds",
-  "descriptionHtml" : "<p>this test succeeds</p>\n",
+  "description" : "this test validate URL response status",
+  "descriptionHtml" : "<p>this test validate URL response status</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -26,10 +26,10 @@
     "value" : "TestClass"
   }, {
     "name" : "host",
-    "value" : "travis-job-36736ccf-3c10-49c1-a9a7-4866888d0f5e"
+    "value" : "travis-job-72544a18-b24c-44b1-afb4-5721dfc545db"
   }, {
     "name" : "thread",
-    "value" : "3660-MainThread"
+    "value" : "3636-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ab2b3fbe84406ac7.json",
+  "source" : "6d7fbd3d4e89373c.json",
   "parameterValues" : [ ]
 }
